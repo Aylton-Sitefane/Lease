@@ -1,0 +1,67 @@
+<resources>
+    <!--    hints para pagina de registo-->
+    <string name="app_name">Lease</string>
+    <string name="Login">Login</string>
+    <string name="entrar">Entrar</string>
+    <string name="bem_vindo">Bem vindo!</string>
+    <string name="criar_conta">Criar Conta</string>
+    <string name="possui_conta">Possui uma conta?Clique aqui</string>
+    <string name="email">Digite o seu e-mail</string>
+    <string name="user">Digite o seu nome de usuario</string>
+    <string name="senha1">Digite sua senha</string>
+    <string name="senha11">Digite sua nova senha</string>
+    <string name="senha2">Confirmar senha</string>
+
+    <!--    hints para pagina de login-->
+    <string name="lembar_me">Lembrar-me?</string>
+
+    <!--    hints para a pagina principal-->
+    <string name="home">Home</string>
+    <string name="finger_print">Definicoes de Finger print</string>
+    <string name="conta">Minha conta</string>
+    <string name="personal_information">Informacao pessoal</string>
+    <string name="upgrade_account">Actualizar conta</string>
+
+    <string name="perfil">Perfil</string>
+    <string name="pesquisar">Pesquisar</string>
+    <string name="settings">Definicoes</string>
+    <string name="phone">Digite seu numero de celular</string>
+    <string name="forgot_pass">Esqueceu sua palavra-passe?</string>
+    <string name="notifications">Notificacoes</string>
+    <string name="favorites">Favoritos</string>
+    <string name="title_activity_home">Home</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="todo">TODO</string>
+    <string name="adicionar">Adicionar Propriedade</string>
+
+
+    <!--hints para definicoes    -->
+    <string name="darckmode">Darckmode</string>
+    <string name="linguagem">Linguagem</string>
+    <string name="restaurar">Restaurar definicoes</string>
+    <string name="guardar_btn">Guardar</string>
+    <string name="encontre_nos">Encontre-nos</string>
+    <string name="contacte_nos">Contacte-nos</string>
+    <string name="avalie">Avalie o aplicativo</string>
+
+    <!--    hints para minha conta-->
+
+    <string name="pnome">Primeiro nome</string>
+    <string name="unome">Ultimo nome</string>
+    <string name="nacionaliade">Nacionalidade</string>
+    <string name="paismorada">Pais</string>
+    <string name="proximo_btn">Proximo</string>
+    <string name="cidademorada">Cidade</string>
+
+    <string name="recoverinfo">Recuperar conta</string>
+    <string name="recoverinfo2">Digite a ultima senha dessa conta que voce se lembra</string>
+    <string name="recoverinfo3">Digite o codigo de confirmacao que voce receber na sua conta G-mail</string>
+    <string name="recoverinfo4">Digite o codigo de confirmacao que voce receber no seu celular</string>
+    <string name="tentar_outra_forma">Tentar de outra forma</string>
+
+
+</resources>

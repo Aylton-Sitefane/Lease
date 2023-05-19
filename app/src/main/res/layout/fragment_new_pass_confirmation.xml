@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/purple_200"
+
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_gravity="center_vertical|center_horizontal"
+    android:gravity="center_vertical|center_horizontal"
+    tools:context=".autentication.NewPassConfirmationFragment">
+
+    <LinearLayout
+        android:layout_margin="20dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/recoverinfo"
+            android:textAlignment="center"
+            android:textSize="35sp"
+            android:textColorHint="@color/black"
+            />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:layout_marginStart="55dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/ic_person"/>
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:hint="aylton.sitefane1@gmail.com"
+                android:textColorHint="@color/black"/>
+        </LinearLayout>
+        <EditText
+            android:layout_margin="20dp"
+            android:background="@drawable/campo_texto"
+            android:textSize="25sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/senha11"/>
+        <EditText
+            android:layout_margin="20dp"
+            android:background="@drawable/campo_texto"
+            android:textSize="25sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/senha2"/>
+        <com.google.android.material.button.MaterialButton
+            android:layout_width="wrap_content"
+            android:hint="@string/proximo_btn"
+            android:textColorHint="@color/black"
+            app:cornerRadius="25dp"
+            android:layout_height="wrap_content">
+
+        </com.google.android.material.button.MaterialButton>
+    </LinearLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@color/purple_200"
+    android:layout_height="match_parent"
+    tools:context=".home.DetailsHomeFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="16dp"
+                app:cardCornerRadius="8dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:id="@+id/imageView"
+                        android:layout_width="match_parent"
+                        android:layout_height="200dp"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/casa3" />
+
+
+                    <ImageView
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_margin="8dp"
+                        android:id="@+id/favorite_icon"
+                        android:src="@drawable/ic_favorite" />
+
+                    <com.google.android.material.button.MaterialButton
+                        app:cornerRadius="5dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentEnd="true"
+                        android:backgroundTint="#651C2B7C"
+
+                        android:layout_below="@id/favorite_icon"
+                        android:layout_marginTop="8dp"
+                        android:text="contact" />
+
+                </RelativeLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:stretchColumns="1">
+
+                <!-- Header Row -->
+                <TableRow>
+                    <TextView
+                        android:textSize="20sp"
+                        android:layout_column="1"
+                        android:text="Details"
+                        android:textStyle="bold" />
+                    <TextView
+                        android:textSize="20sp"
+                        android:layout_column="2"
+                        android:text="Value"
+                        android:textStyle="bold" />
+                </TableRow>
+
+                <!-- Data Rows -->
+                <TableRow>
+                    <TextView
+                        android:textColor="@color/black"
+                        android:textSize="20sp"
+
+                        android:text="Localizacao:" />
+                    <TextView
+                        android:textColor="@color/black"
+                        android:textSize="20sp"
+
+                        android:text="Maputo" />
+                </TableRow>
+
+                <TableRow>
+                    <TextView
+                        android:text="Quartos:"
+                        android:textSize="20sp"
+
+                        android:textColor="@color/black"
+                        />
+                    <TextView
+                        android:textSize="20sp"
+
+                        android:text="3"
+                        android:textColor="@color/black"
+                        />
+                </TableRow>
+
+                <TableRow>
+                    <TextView
+                        android:textSize="20sp"
+
+                        android:text="Preco de renda:"
+                        android:textColor="@color/black"
+                        />
+                    <TextView
+                        android:textSize="20sp"
+
+                        android:text="$1500/mensal"
+                        android:textColor="@color/black"
+                        />
+                </TableRow>
+
+                <!-- Add more rows for additional details -->
+
+            </TableLayout>
+
+            <com.google.android.material.button.MaterialButton
+                android:hint="Ver localizacao"
+                app:cornerRadius="5dp"
+                android:backgroundTint="#651C2B7C"
+
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent">
+
+            </com.google.android.material.button.MaterialButton>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</LinearLayout>

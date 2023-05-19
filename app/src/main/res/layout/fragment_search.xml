@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+android:background="@color/purple_200"
+    tools:context=".home.SearchFragment">
+
+    <LinearLayout
+        android:id="@+id/search_bar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/ic_search"
+            android:contentDescription="TODO" />
+
+        <EditText
+            android:layout_width="315dp"
+            android:layout_height="32dp"
+            android:autofillHints=""
+            android:background="@drawable/campo_texto"
+            android:hint="@string/pesquisar"
+            android:inputType="text"
+            android:textColorHint="#757575">
+        </EditText>
+
+        <ImageView
+            android:layout_marginStart="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/ic_filter"/>
+        </LinearLayout>
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/search_bar">
+
+    </ListView>
+
+</RelativeLayout>

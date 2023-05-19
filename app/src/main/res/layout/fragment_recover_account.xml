@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:background="@color/purple_200"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:gravity="center_horizontal|center_vertical"
+    android:layout_gravity="center_vertical|center_horizontal"
+    tools:context=".autentication.RecoverAccountFragment">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/recoverinfo"
+            android:textAlignment="center"
+            android:textSize="30sp"
+            android:textColorHint="#CD040837"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:layout_marginStart="70dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/ic_person"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:hint="aylton.sitefane1@gmail.com"
+                android:textColorHint="@color/black"/>
+        </LinearLayout>
+        <TextView
+            android:textColorHint="@color/black"
+            android:layout_margin="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/recoverinfo2"
+            android:textSize="25sp"/>
+
+        <EditText
+            android:layout_margin="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/campo_texto"
+            android:hint="@string/senha1"
+            android:inputType="textPassword"
+            android:minHeight="48dp"
+            android:textSize="19sp" />
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="mostrar palavra-passe"
+            android:textSize="20sp"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/try_another_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="@string/tentar_outra_forma"
+            android:textSize="16sp"
+            android:textColorHint="#CD040837"/>
+        <com.google.android.material.button.MaterialButton
+            android:layout_width="wrap_content"
+            android:hint="@string/proximo_btn"
+            android:layout_marginStart="155dp"
+            android:id="@+id/proximo_btn"
+            app:cornerRadius="20dp"
+            android:textColorHint="@color/black"
+            android:backgroundTint="#651C2B7C"
+            android:layout_height="wrap_content">
+
+        </com.google.android.material.button.MaterialButton>
+    </LinearLayout>
+
+
+</LinearLayout>

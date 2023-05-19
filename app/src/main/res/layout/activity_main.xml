@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_margin="30dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/bem_vindo"
+
+            android:textAlignment="center"
+            android:textColorHint="@color/purple_500"
+
+            android:textSize="36sp">
+
+        </TextView>
+
+        <LinearLayout
+            android:orientation="horizontal"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <ImageView
+                android:layout_width="175dp"
+                android:layout_height="175dp"
+                android:background="@drawable/logotype"/>
+        </LinearLayout>
+
+
+
+
+
+        <Button
+            android:id="@+id/btnlogin"
+            style="@android:style/Widget.Button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:background="@drawable/campo_texto"
+            android:hint="@string/Login"
+
+            android:textSize="36sp" />
+
+        <Button
+            android:id="@+id/btnsignin"
+            style="@android:style/Widget.Button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:background="@drawable/campo_texto"
+
+            android:hint="@string/criar_conta"
+            android:textSize="36sp">
+
+        </Button>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:textColor="@color/purple_500"
+            android:layout_height="wrap_content"
+            android:text="Encontre a casa dos teus sonhos!"
+            android:textSize="35sp"
+            />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
